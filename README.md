@@ -3,7 +3,7 @@
 Code, pre-specified protocols and per-run results for the paper
 **"Tune Before You Clean: A Confirmatory Benchmark of When Outlier and Label-Noise Removal Helps Tabular Classification."**
 
-> Archived version: DOI `10.5281/zenodo.XXXXXXX` (added after the first Zenodo release)
+> Archived version: DOI `10.5281/zenodo.23896892` (added after the first Zenodo release)
 
 ## What is here
 
