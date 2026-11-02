@@ -1,0 +1,11 @@
+hypothesis,condition,comparison,n,mean_diff,p,p_holm
+H12c right-sized >= fixed 10%,feature_gross@0.05,rs:IF - fix:IF@0.1 (mean of 4 families),40,0.3327,0.0047,0.0142
+H12c right-sized >= fixed 10%,feature_gross@0.1,rs:IF - fix:IF@0.1 (mean of 4 families),40,0.0,,
+H12c right-sized >= fixed 10%,feature_mild@0.1,rs:IF - fix:IF@0.1 (mean of 4 families),40,0.0,,
+H12c right-sized >= fixed 10%,label_asym@0.2,rs:OOB - fix:OOB@0.1 (mean of 4 families),40,0.11,0.3136,0.3136
+H12c right-sized >= fixed 10%,label_sym@0.1,rs:OOB - fix:OOB@0.1 (mean of 4 families),40,0.0,,
+H12c right-sized >= fixed 10%,label_sym@0.2,rs:OOB - fix:OOB@0.1 (mean of 4 families),40,0.544,0.01,0.02
+H12d oracle helps under 20% label noise,label_sym@0.2,LogReg: oracle - none,40,4.504,0.0,0.0
+H12d oracle helps under 20% label noise,label_sym@0.2,KNN: oracle - none,40,2.845,0.0,0.0
+H12d oracle helps under 20% label noise,label_sym@0.2,RandomForest: oracle - none,40,1.878,0.0006,0.0022
+H12d oracle helps under 20% label noise,label_sym@0.2,HistGB: oracle - none,40,4.8716,0.0,0.0
