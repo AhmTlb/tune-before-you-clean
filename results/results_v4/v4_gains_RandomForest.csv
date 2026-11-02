@@ -1,0 +1,9 @@
+option,clean,feature_gross@0.1,feature_mild@0.1,label_asym@0.2,label_sym@0.2,mixed@0.1,dirty mean
+default | none,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+default | remove:IF,-1.12,0.09,0.25,-0.09,-1.27,-0.12,-0.23
+default | remove:OOB,-2.15,-2.0,-1.88,-0.39,0.44,-0.11,-0.79
+default | winsorize,0.01,-0.01,0.11,0.05,-0.06,0.01,0.02
+tuned | none,0.45,0.36,0.47,1.18,1.13,0.62,0.75
+tuned | remove:IF,-0.37,0.45,0.53,1.01,0.01,0.74,0.55
+tuned | remove:OOB,-1.94,-1.8,-1.61,-0.05,1.03,0.21,-0.44
+tuned | winsorize,0.48,0.2,0.44,1.19,0.97,0.59,0.68

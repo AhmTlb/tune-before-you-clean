@@ -1,0 +1,20 @@
+model,strategy,gain_clean,gain_dirty,break_even_pi
+HistGB,remove IF 5%,-0.531,-0.189,never worth it
+HistGB,remove OOB 5%,-1.666,-0.196,never worth it
+HistGB,remove both (DTT sizes),-2.338,-0.955,never worth it
+HistGB,reweight OOB,-0.038,0.185,0.17
+HistGB,winsorize p1-99,-0.035,0.005,0.88
+KNN,remove IF 5%,-0.571,-0.169,never worth it
+KNN,remove OOB 5%,-0.853,-0.02,never worth it
+KNN,remove both (DTT sizes),-1.556,-0.879,never worth it
+KNN,winsorize p1-99,0.089,0.063,always worth it
+LogReg,remove IF 5%,-0.095,1.375,0.06
+LogReg,remove OOB 5%,-0.338,0.673,0.33
+LogReg,remove both (DTT sizes),-0.808,2.725,0.23
+LogReg,reweight OOB,-0.391,0.462,0.46
+LogReg,winsorize p1-99,0.135,1.249,always worth it
+RandomForest,remove IF 5%,-0.116,-0.026,never worth it
+RandomForest,remove OOB 5%,-1.272,-0.404,never worth it
+RandomForest,remove both (DTT sizes),-1.509,-1.053,never worth it
+RandomForest,reweight OOB,0.079,0.036,always worth it
+RandomForest,winsorize p1-99,0.094,0.018,always worth it

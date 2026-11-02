@@ -1,0 +1,7 @@
+condition,cleaning,default_cleaning_gain,robust_tuned_no_cleaning_gain,recovery
+feature_gross@0.1,remove:IF,5.172,3.939,0.762
+feature_mild@0.1,remove:IF,1.794,0.74,0.413
+label_asym@0.2,remove:OOB,0.261,0.421,1.615
+label_sym@0.2,remove:OOB,1.333,0.648,0.486
+mixed@0.1,remove:IF,4.018,3.754,0.934
+mixed@0.1,remove:OOB,1.886,3.754,1.99

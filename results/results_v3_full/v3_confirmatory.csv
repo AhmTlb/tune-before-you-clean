@@ -1,0 +1,9 @@
+strategy,mean_gain,harm,p_vs_never
+never treat,0.0,0.0,
+always classical (IF 5%),0.2101,25.8636,0.0296
+always target-aware (OOB 5%),-0.4812,34.3636,0.0172
+always both (DTT sizes),-0.838,44.0682,0.2305
+always reweight (OOB),0.0299,20.9697,0.498
+diagnose-then-treat,-0.7094,41.1591,0.3118
+MODEL-AWARE POLICY,0.4434,20.0455,0.0973
+best global strategy,-0.7094,41.1591,0.3118
