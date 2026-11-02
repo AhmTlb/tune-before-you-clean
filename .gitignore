@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# raw run folders stay local; the exported CSVs in results/ are archived instead
+code/results*/
+code/*_smoke/
+code/v*_smoke/
+*.pkl
+*.tmp
+*.zip

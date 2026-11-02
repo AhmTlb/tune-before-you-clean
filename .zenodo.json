@@ -1,0 +1,11 @@
+{
+  "title": "Tune Before You Clean: code, protocols and results",
+  "upload_type": "software",
+  "description": "Code, pre-specified protocols and per-run results for the paper 'Tune Before You Clean: A Confirmatory Benchmark of When Outlier and Label-Noise Removal Helps Tabular Classification'. Six experimental stages on 40 OpenML-CC18 datasets.",
+  "creators": [
+    {"name": "abdelmotlab, ahmed", "affiliation": "kku.edu.sa", "orcid": "0009-0008-7850-5929"}
+  ],
+  "license": "MIT",
+  "keywords": ["outlier detection", "label noise", "data cleaning", "data valuation", "tabular classification", "benchmark"],
+  "access_right": "open"
+}
