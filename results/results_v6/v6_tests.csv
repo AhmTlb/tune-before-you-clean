@@ -1,0 +1,9 @@
+hypothesis,family,condition,n,mean,p,p_holm
+H13a EF (native) harms trees on clean,RandomForest,clean,40,-1.9588,0.0005,0.0016
+H13a EF (native) harms trees on clean,HistGB,clean,40,-2.3166,0.0,0.0001
+H13b asym gap oracle - rs:EF > 0,LogReg,label_asym@0.2,40,6.7698,0.0,0.0
+H13b asym gap oracle - rs:EF > 0,KNN,label_asym@0.2,40,6.553,0.0,0.0
+H13b asym gap oracle - rs:EF > 0,RandomForest,label_asym@0.2,40,9.0409,0.0,0.0
+H13b asym gap oracle - rs:EF > 0,HistGB,label_asym@0.2,40,9.8327,0.0,0.0
+H13c rs:EF vs rs:OOB (two-sided),mean of 4,label_sym@0.2,40,-0.1324,0.6179,0.6179
+H13c rs:EF vs rs:OOB (two-sided),mean of 4,label_asym@0.2,40,0.943,0.0172,0.0343
