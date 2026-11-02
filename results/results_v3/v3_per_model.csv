@@ -1,0 +1,121 @@
+model,group,strategy,mean_gain,harm
+HistGB,clean,never treat,0.0,0.0
+HistGB,clean,always classical (IF 5%),-0.2925094963781186,30.0
+HistGB,clean,always target-aware (OOB 5%),-1.2302492360285737,53.333333333333336
+HistGB,clean,always both (DTT sizes),-0.6012268725401051,40.0
+HistGB,clean,always reweight (OOB),0.03827484410965608,8.333333333333332
+HistGB,clean,diagnose-then-treat (LODO),-0.4978703976263102,35.0
+HistGB,label,never treat,0.0,0.0
+HistGB,label,always classical (IF 5%),-0.5299982361381548,34.166666666666664
+HistGB,label,always target-aware (OOB 5%),0.43776102367949754,15.0
+HistGB,label,always both (DTT sizes),0.7193528109839715,24.166666666666668
+HistGB,label,always reweight (OOB),0.44931499151182647,11.666666666666666
+HistGB,label,diagnose-then-treat (LODO),0.6312586777684998,24.166666666666668
+HistGB,feature,never treat,0.0,0.0
+HistGB,feature,always classical (IF 5%),0.05759419862202406,17.083333333333332
+HistGB,feature,always target-aware (OOB 5%),-0.7810922103436444,43.333333333333336
+HistGB,feature,always both (DTT sizes),-0.6069615879694075,41.25
+HistGB,feature,always reweight (OOB),-0.018668112329046326,12.916666666666668
+HistGB,feature,diagnose-then-treat (LODO),-0.5265275772746497,35.833333333333336
+HistGB,mixed,never treat,0.0,0.0
+HistGB,mixed,always classical (IF 5%),0.04315530021434224,13.333333333333334
+HistGB,mixed,always target-aware (OOB 5%),0.5014809667935244,10.833333333333334
+HistGB,mixed,always both (DTT sizes),0.40412667867263374,25.833333333333336
+HistGB,mixed,always reweight (OOB),0.43746084812404834,7.5
+HistGB,mixed,diagnose-then-treat (LODO),0.36299433590990826,27.500000000000004
+HistGB,ALL,never treat,0.0,0.0
+HistGB,ALL,always classical (IF 5%),-0.1905286405467234,23.78787878787879
+HistGB,ALL,always target-aware (OOB 5%),-0.1455101862816466,28.030303030303028
+HistGB,ALL,always both (DTT sizes),0.05969012516940168,32.121212121212125
+HistGB,ALL,always reweight (OOB),0.2396167324626249,11.06060606060606
+HistGB,ALL,diagnose-then-treat (LODO),0.05882206146990061,30.0
+KNN,clean,never treat,0.0,0.0
+KNN,clean,always classical (IF 5%),-0.2720293624592075,21.666666666666668
+KNN,clean,always target-aware (OOB 5%),-0.3710529678054846,21.666666666666668
+KNN,clean,always both (DTT sizes),-0.21437158656127067,21.666666666666668
+KNN,clean,always reweight (OOB),,
+KNN,clean,diagnose-then-treat (LODO),-0.2732271272062329,23.333333333333332
+KNN,label,never treat,0.0,0.0
+KNN,label,always classical (IF 5%),-0.21903753279994395,17.916666666666668
+KNN,label,always target-aware (OOB 5%),0.6286502211589712,7.916666666666666
+KNN,label,always both (DTT sizes),0.717492951212929,23.75
+KNN,label,always reweight (OOB),,
+KNN,label,diagnose-then-treat (LODO),0.6880130046865952,22.916666666666664
+KNN,feature,never treat,0.0,0.0
+KNN,feature,always classical (IF 5%),-0.07962384306532164,12.083333333333334
+KNN,feature,always target-aware (OOB 5%),-0.12077735195021348,14.583333333333334
+KNN,feature,always both (DTT sizes),-0.21958940214710915,25.416666666666664
+KNN,feature,always reweight (OOB),,
+KNN,feature,diagnose-then-treat (LODO),-0.21280683932380112,23.333333333333332
+KNN,mixed,never treat,0.0,0.0
+KNN,mixed,always classical (IF 5%),-0.048128901802377055,11.666666666666666
+KNN,mixed,always target-aware (OOB 5%),0.44601874328272084,9.166666666666666
+KNN,mixed,always both (DTT sizes),0.22521725570158574,21.666666666666668
+KNN,mixed,always reweight (OOB),,
+KNN,mixed,diagnose-then-treat (LODO),0.22137208129123492,22.5
+KNN,ALL,never treat,0.0,0.0
+KNN,ALL,always classical (IF 5%),-0.14208478813863853,15.0
+KNN,ALL,always target-aware (OOB 5%),0.23204327232681704,11.818181818181818
+KNN,ALL,always both (DTT sizes),0.2025161019186527,23.78787878787879
+KNN,ALL,always reweight (OOB),,
+KNN,ALL,diagnose-then-treat (LODO),0.18821288152976492,23.03030303030303
+LogReg,clean,never treat,0.0,0.0
+LogReg,clean,always classical (IF 5%),-0.3109597705928725,16.666666666666664
+LogReg,clean,always target-aware (OOB 5%),-0.16720624030340026,21.666666666666668
+LogReg,clean,always both (DTT sizes),-0.4277531040711765,26.666666666666668
+LogReg,clean,always reweight (OOB),-0.019140711714302094,10.0
+LogReg,clean,diagnose-then-treat (LODO),-0.46718654573770113,31.666666666666664
+LogReg,label,never treat,0.0,0.0
+LogReg,label,always classical (IF 5%),-0.2751349667194777,24.583333333333332
+LogReg,label,always target-aware (OOB 5%),0.432841200171224,8.333333333333332
+LogReg,label,always both (DTT sizes),0.9493008253204094,17.5
+LogReg,label,always reweight (OOB),0.6044713047940988,6.25
+LogReg,label,diagnose-then-treat (LODO),1.0089130562351685,15.416666666666668
+LogReg,feature,never treat,0.0,0.0
+LogReg,feature,always classical (IF 5%),1.390518152480461,5.416666666666667
+LogReg,feature,always target-aware (OOB 5%),0.6601447756866483,7.083333333333333
+LogReg,feature,always both (DTT sizes),1.7668937542519199,7.083333333333333
+LogReg,feature,always reweight (OOB),0.4868406251055215,3.75
+LogReg,feature,diagnose-then-treat (LODO),1.6348854699736637,5.833333333333333
+LogReg,mixed,never treat,0.0,0.0
+LogReg,mixed,always classical (IF 5%),1.892494632468664,9.166666666666666
+LogReg,mixed,always target-aware (OOB 5%),0.786565697500076,7.5
+LogReg,mixed,always both (DTT sizes),4.094032000763116,4.166666666666666
+LogReg,mixed,always reweight (OOB),0.7346966438360539,0.8333333333333334
+LogReg,mixed,diagnose-then-treat (LODO),3.9189986692030714,5.833333333333333
+LogReg,ALL,never treat,0.0,0.0
+LogReg,ALL,always classical (IF 5%),0.7214147488534899,14.09090909090909
+LogReg,ALL,always target-aware (OOB 5%),0.5252608234662038,8.93939393939394
+LogReg,ALL,always both (DTT sizes),1.6931899287040342,12.121212121212121
+LogReg,ALL,always reweight (OOB),0.5286818450505717,4.696969696969696
+LogReg,ALL,diagnose-then-treat (LODO),1.6314549906821607,11.666666666666666
+RandomForest,clean,never treat,0.0,0.0
+RandomForest,clean,always classical (IF 5%),-0.31700290633465883,20.0
+RandomForest,clean,always target-aware (OOB 5%),-1.0197603276899292,41.66666666666667
+RandomForest,clean,always both (DTT sizes),-0.7284850454485939,40.0
+RandomForest,clean,always reweight (OOB),0.060544115679256424,3.3333333333333335
+RandomForest,clean,diagnose-then-treat (LODO),-0.6021684971403893,31.666666666666664
+RandomForest,label,never treat,0.0,0.0
+RandomForest,label,always classical (IF 5%),-0.22308076442494854,27.500000000000004
+RandomForest,label,always target-aware (OOB 5%),0.46855670552550366,11.666666666666666
+RandomForest,label,always both (DTT sizes),0.14239298532854397,33.75
+RandomForest,label,always reweight (OOB),0.09718859446527449,13.333333333333334
+RandomForest,label,diagnose-then-treat (LODO),0.13519091815520154,34.583333333333336
+RandomForest,feature,never treat,0.0,0.0
+RandomForest,feature,always classical (IF 5%),0.07879285426304851,9.583333333333334
+RandomForest,feature,always target-aware (OOB 5%),-0.6403457011819438,33.75
+RandomForest,feature,always both (DTT sizes),-0.6092047979672254,34.166666666666664
+RandomForest,feature,always reweight (OOB),-0.06498190273256844,12.916666666666668
+RandomForest,feature,diagnose-then-treat (LODO),-0.5160464394835792,29.583333333333332
+RandomForest,mixed,never treat,0.0,0.0
+RandomForest,mixed,always classical (IF 5%),-0.015042455352372508,15.0
+RandomForest,mixed,always target-aware (OOB 5%),0.13883687268884914,11.666666666666666
+RandomForest,mixed,always both (DTT sizes),-0.1799761615717819,26.666666666666668
+RandomForest,mixed,always reweight (OOB),0.04390086092833854,9.166666666666666
+RandomForest,mixed,diagnose-then-treat (LODO),-0.1960146068197071,26.666666666666668
+RandomForest,ALL,never treat,0.0,0.0
+RandomForest,ALL,always classical (IF 5%),-0.0840217688806367,18.03030303030303
+RandomForest,ALL,always target-aware (OOB 5%),-0.1299311422670901,22.424242424242426
+RandomForest,ALL,always both (DTT sizes),-0.26869860174062576,33.18181818181819
+RandomForest,ALL,always reweight (OOB),0.025197509496977973,11.515151515151516
+RandomForest,ALL,diagnose-then-treat (LODO),-0.22887452691757404,31.060606060606062

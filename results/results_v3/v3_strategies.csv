@@ -1,0 +1,41 @@
+group,strategy,mean_gain,harm_rate,p_vs_never
+clean,never treat,0.0,0.0,
+clean,always classical (IF 5%),-0.298,22.083,0.019
+clean,always target-aware (OOB 5%),-0.697,34.583,0.001
+clean,always both (DTT sizes),-0.493,32.083,0.011
+clean,always reweight (OOB),0.02,5.417,0.841
+clean,DIAGNOSE-THEN-TREAT (LODO),-0.44,28.75,0.025
+clean,type oracle (knows type),0.0,0.0,
+clean,action oracle (upper bound),0.573,0.0,0.0
+label,never treat,0.0,0.0,
+label,always classical (IF 5%),-0.312,26.042,0.024
+label,always target-aware (OOB 5%),0.492,10.729,0.0
+label,always both (DTT sizes),0.632,24.792,0.033
+label,always reweight (OOB),0.288,7.812,0.0
+label,DIAGNOSE-THEN-TREAT (LODO),0.615,24.479,0.033
+label,type oracle (knows type),0.851,18.125,0.003
+label,action oracle (upper bound),1.834,0.0,0.0
+feature,never treat,0.0,0.0,
+feature,always classical (IF 5%),0.362,11.042,0.001
+feature,always target-aware (OOB 5%),-0.221,24.688,0.165
+feature,always both (DTT sizes),0.083,26.979,0.596
+feature,always reweight (OOB),0.101,7.396,0.011
+feature,DIAGNOSE-THEN-TREAT (LODO),0.12,22.708,0.355
+feature,type oracle (knows type),0.333,14.479,0.002
+feature,action oracle (upper bound),1.079,0.0,0.0
+mixed,never treat,0.0,0.0,
+mixed,always classical (IF 5%),0.468,12.292,0.004
+mixed,always target-aware (OOB 5%),0.468,9.792,0.0
+mixed,always both (DTT sizes),1.136,19.583,0.0
+mixed,always reweight (OOB),0.304,4.375,0.0
+mixed,DIAGNOSE-THEN-TREAT (LODO),1.126,19.792,0.0
+mixed,type oracle (knows type),1.136,19.583,0.0
+mixed,action oracle (upper bound),2.086,0.0,0.0
+ALL,never treat,0.0,0.0,
+ALL,always classical (IF 5%),0.076,17.727,0.388
+ALL,always target-aware (OOB 5%),0.12,17.803,0.33
+ALL,always both (DTT sizes),0.422,25.303,0.04
+ALL,always reweight (OOB),0.198,6.818,0.0
+ALL,DIAGNOSE-THEN-TREAT (LODO),0.432,23.371,0.027
+ALL,type oracle (knows type),0.637,15.417,0.0
+ALL,action oracle (upper bound),1.491,0.0,0.0
