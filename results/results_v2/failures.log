@@ -1,0 +1,8 @@
+balance-scale_11 seed=0: clean KNNShapley@0.1: removal wiped out a class -> skipped
+balance-scale_11 seed=0: clean SelfConfidence@0.1: removal wiped out a class -> skipped
+balance-scale_11 seed=0: feature@0.05 KNNShapley@0.1: removal wiped out a class -> skipped
+balance-scale_11 seed=0: feature@0.1 KNNShapley@0.1: removal wiped out a class -> skipped
+balance-scale_11 seed=0: feature@0.1 SelfConfidence@0.1: removal wiped out a class -> skipped
+balance-scale_11 seed=1: clean KNNShapley@0.1: removal wiped out a class -> skipped
+balance-scale_11 seed=1: clean SelfConfidence@0.1: removal wiped out a class -> skipped
+balance-scale_11 seed=1: feature@0.05 SelfConfidence@0.1: removal wiped out a class -> skipped

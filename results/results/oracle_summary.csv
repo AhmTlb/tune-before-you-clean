@@ -1,0 +1,9 @@
+frac,model,datasets,naive_gain,honest_gain,honest_gain_median,pct_honest_positive,pct_honest_gt_1pt,p_honest_gt_0,noise_sd_none,best_fixed,best_fixed_gain
+0.05,HistGB,20,0.598,0.084,0.0,30.0,10.0,0.413,1.561,RobustMahalanobis,-0.052
+0.05,KNN,20,0.497,0.172,0.033,50.0,5.0,0.074,1.585,MAD,-0.226
+0.05,LogReg,20,0.519,0.017,0.033,50.0,15.0,0.42,1.217,MAD,-0.136
+0.05,RandomForest,20,0.543,0.2,0.068,60.0,10.0,0.105,1.18,IQR,-0.184
+0.1,HistGB,20,0.723,0.263,0.0,30.0,20.0,0.216,1.561,IQR,-0.582
+0.1,KNN,20,0.502,-0.128,-0.0,25.0,15.0,0.675,1.585,DataOOB,-0.59
+0.1,LogReg,20,0.557,0.045,-0.077,30.0,10.0,0.521,1.217,DataOOB,-0.201
+0.1,RandomForest,20,0.539,0.274,0.0,35.0,10.0,0.079,1.18,IQR,-0.402
